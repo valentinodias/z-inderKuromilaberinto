@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(12, 12, 12);
+}
+
+.fondo {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+  overflow: hidden;
+  height: 650px;
+  margin-right: 1200px;
+}
+
+.kuromi {
+  top: 0px;
+  left: 320px;
+  z-index: 1;
+  height: 40px;
+  top: 110px;
+  position: absolute;
+  animation-name: kuromi;
+  animation-duration: 20s;
+  animation-timing-function: linear; 
+}   
+@keyframes kuromi {
+  0% {left: 320px; top: 110px;}
+  5%{ left:430px; top: 110px;} 
+  10%{ left:430px; top: 190px;} 
+  15%{ left:410px; top: 190px;} 
+  20%{ left:410px; top: 300px;} 
+  25%{ left:520px; top: 300px;} 
+  30%{ left:520px; top: 210px;} 
+  32%{ left:610px; top: 210px;} 
+  34%{ left:610px; top: 390px;} 
+  36%{ left:455px; top: 390px;} 
+  38%{ left:455px; top: 470px;} 
+  40%{ left:550px; top: 470px;} 
+  42%{ left:550px; top: 520px;} 
+  44%{ left:400px; top: 520px;}
+  46%{ left:400px; top: 550px;}
+  48%{ left:610px; top: 550px;}
+  50%{ left:610px; top: 410px;}
+  55%{ left:665px; top: 410px;}
+  58%{ left:665px; top: 380px;}
+  60%{ left:630px; top: 380px;}
+  62%{ left:630px; top: 180px;}
+  64%{ left:520px; top: 180px;} 
+  66%{ left:520px; top: 160px;} 
+  68%{ left:660px; top: 160px;} 
+  70%{ left:660px; top: 220px;} 
+  72%{ left:690px; top: 220px;} 
+  74%{ left:690px; top: 75px;} 
+  76%{ left:830px; top: 75px;}  
+  80%{ left:830px; top: 20px;}  
+  82%{ left:920px; top: 20px;} 
+  85%{ left:920px; top: 100px;}
+  87%{ left:890px; top: 100px;}
+  90%{ left:890px; top: 160px;}
+  100%{ left:980px; top: 160px;}
+}
